@@ -41,7 +41,6 @@ inputText.addEventListener("keypress", function(event) {
     console.log(event.key)
     if(event.key == "Enter") 
         {
-            alert("oui ??")
             document.querySelector("#button1").click()
 
         }
