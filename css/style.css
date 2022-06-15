@@ -1,0 +1,58 @@
+body{
+    background-color:#C0FFC0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin-bottom: 0%;
+}
+
+span{
+    color:#505050;
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#principale{
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width:700px;
+    padding-left: 15px;
+}
+
+.button{
+    font-size: 1.10em;
+    font-weight: bold;
+    color:#FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor:pointer;
+
+}
+
+.toDelete{
+    background-color: #C0C0C0;
+    text-decoration: line-through;
+}
+
+#button1{
+    background-color: #5050FF;
+}
+
+#button2{
+    background-color: #A00000;
+}
+
+#button3{
+    background-color: #5050FF;
+}
+
+#button4{
+    background-color: #00A000;
+}
