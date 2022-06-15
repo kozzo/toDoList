@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de choses à faire</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="principale">
+        <h2>Liste de choses à faire</h2>
+        <span>Double-cliquez une ligne pour la barrer</span>
+        <br><br>
+        <div>
+            <input  type="text" 
+                    id="toAdd" 
+                    name="add">
+            <input  type="submit" 
+                    onclick="addItem()" 
+                    value="Ajouter à la liste" 
+                    name="add"
+                    class="button"
+                    id="button1">
+        </div>
+
+        <ol id="maListe">
+        </ol>
+
+        <div>
+            <input  type="submit" 
+                    onclick="removeCrossedItems()"    
+                    value="Supprimer les éléments barrés"
+                    class="button"
+                    id="button3">
+            <input  type="submit" 
+                    onclick="removeItems()" 
+                    value="Supprimer la liste"
+                    class="button"
+                    id="button2">
+            <input  type="submit" 
+                    onclick="saveList()" 
+                    value="Sauvegarder la liste"
+                    class="button"
+                    id="button4">
+        </div>
+        <br>
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
